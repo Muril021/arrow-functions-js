@@ -1,5 +1,5 @@
+import PromptSync = require("prompt-sync");
 import { calculo } from "./calculo";
-import PromptSync from "prompt-sync";
 const prompt = PromptSync();
 
 const altura = Number(prompt('Digite a sua altura: '));
